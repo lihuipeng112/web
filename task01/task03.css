@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.out {
+	width: 400px;
+	height: 180px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -90px;
+}
+
+.up {
+	width: 400px;
+	height: 120px;
+}
+.down {
+	width: 280px;
+	height: 120px;
+	margin-left: 70px;
+	margin-top: -70px;
+	position: relative;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 10px solid;
+	float: left;
+	margin-left: 10px;
+}
+
+.red {
+	border-color: red;
+}
+
+.green {
+	border-color: green;
+}
+
+.blue {
+	border-color: blue;
+}
+
+.black {
+	border-color: black;
+	position: absolute;
+}
+
+.yellow {
+	border-color: yellow;
+	position: absolute;
+	left: 130px;
+}
+
