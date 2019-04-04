@@ -1,0 +1,48 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.d5 {
+	width: 10px;
+	height: 10px;
+	background-color: blue;
+}
+
+.d4 {
+	width: 10px;
+	height: 10px;
+	padding: 10px;
+	background-color: white;
+}
+
+.d3{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	background-color: blue;
+}
+
+.d2 {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	background-color: white;
+}
+
+.d1 {
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	background-color: blue;
+}
+
+.d0 {
+	width: 90px;
+	height: 90px;
+	padding: 10px;
+	background-color: white;
+}
