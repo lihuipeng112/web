@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: serif;
+}
+
+ul {
+	list-style: none;
+}
+.item a {
+	text-decoration: none;
+	font-size: 12px;
+	height: 30px;
+}
+
+.userbar {
+	position: absolute;
+	right: 0;
+	width: 60%;
+}
+
+.userbar .right .item{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	padding: 0 10px;
+}
+
+.gdbar {
+	width: 40%;
+	height: 30px;
+	border: 1px solid red;
+}
+
+
+
+.gdbar .left {
+	float: left;
+}
