@@ -17,16 +17,10 @@ em{
 .bar{
 	background-color: #f6f6f6;
 	margin: 0;
-
-}
-.item a {
-	text-decoration: none;
-	display: inline-block;
-	font-size: 12px;
 	height: 30px;
-	
-	background-color: red;
+	font-size: 0.75em;
 }
+
 
 .userbar {
 	position: absolute;
@@ -34,22 +28,35 @@ em{
 	width: 60%;
 }
 
+.gdbar {
+	position: absolute;
+	width: 40%;
+}
+
+.userbar,
+.gdbar{
+	height: 20px;
+	margin: 5px 0;
+}
+
+.item a {
+	text-decoration: none;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+
+
+
 .userbar .right .item,
 .gdbar .left .item{
-	height: 30px;
-	line-height: 30px;
+	height: 20px;
 	float: left;
 	padding: 0 22px;
-	border-right: 2px solid #CCCCCC;
+	border-right: 2px solid #f0f0f0;
 }
 
-.gdbar .left .item{
-	border-right: 0;
-}
 
-.gdbar {
-	width: 40%;
-	height: 30px;
-}
+
 
 
