@@ -8,10 +8,24 @@
 ul {
 	list-style: none;
 }
+
+em{
+	font-style: normal;
+	color:red;
+}
+
+.bar{
+	background-color: #f6f6f6;
+	margin: 0;
+
+}
 .item a {
 	text-decoration: none;
+	display: inline-block;
 	font-size: 12px;
 	height: 30px;
+	
+	background-color: red;
 }
 
 .userbar {
@@ -20,21 +34,22 @@ ul {
 	width: 60%;
 }
 
-.userbar .right .item{
+.userbar .right .item,
+.gdbar .left .item{
 	height: 30px;
 	line-height: 30px;
 	float: left;
-	padding: 0 10px;
+	padding: 0 22px;
+	border-right: 2px solid #CCCCCC;
+}
+
+.gdbar .left .item{
+	border-right: 0;
 }
 
 .gdbar {
 	width: 40%;
 	height: 30px;
-	border: 1px solid red;
 }
 
 
-
-.gdbar .left {
-	float: left;
-}
