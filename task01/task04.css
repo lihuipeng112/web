@@ -17,10 +17,21 @@ em{
 
 .back_div{
 	position: absolute;
-	height: 40px;
+	height: 40px;	
+}
+
+.back_last_div{
+	position: absolute;
+	top:160px;
+	height: 100%;
+	
+}
+
+.back_div,
+.back_last_div{
+	width: 100%;
 	background-color: #f6f6f6;
 	z-index: 0.1;
-	width: 100%;
 }
 
 .bar{
@@ -58,8 +69,8 @@ em{
 
 
 
-.userbar .right .item,
-.gdbar .left .item{
+.right .item,
+.left .item{
 	height: 20px;
 	float: left;
 	padding: 0 22px;
@@ -129,7 +140,10 @@ em{
 table {
 	margin: 23px 0;
 	height: 40px;
+	/*border: 1px solid black;*/
+	border-collapse:collapse;
 }
+
 
 .search_bar table td,
 .search_txt{
@@ -142,13 +156,45 @@ table {
 	padding: 0 20px;
 	display: inline-block;
 	line-height: 40px;
-	background-color: #f40;
-	border: 1px solid #f40;
-	
+	background-color: #ff6b37;	
 }
 
 .search_txt{
-
 	width: 400px;
-	border: 3px solid #f40;
+	outline: none;
 }
+
+.search_txt,
+#search_a{
+	border: 2px solid #ff6b37;
+}
+
+.second_title{
+	position: absolute;
+	height: 32px;
+	width: 100%;
+}
+
+
+.second_title .right .item{
+	height: 32px;
+	line-height: 32px;
+	font-weight: 900;
+	border-right: 0;
+	/*padding: 0 40px;*/
+}
+
+#a_left{
+	background-color: #ff6b37;
+	display: inline-block;
+	line-height: 32px;
+	height: 32px;
+	padding: 0 100px 0 10px;
+	color: #fff;
+}
+
+
+
+
+
+
