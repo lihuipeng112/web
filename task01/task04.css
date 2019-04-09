@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	color: black;
+	color: #333;
+	text-decoration: none;
 	font-family: serif;
 }
 
@@ -14,33 +15,42 @@ em{
 	color:red;
 }
 
+.back_div{
+	position: absolute;
+	height: 40px;
+	background-color: #f6f6f6;
+	z-index: 0.1;
+	width: 100%;
+}
+
 .bar{
 	background-color: #f6f6f6;
 	margin: 0;
-	height: 30px;
+	height: 40px;
 	font-size: 0.75em;
+
 }
 
 
 .userbar {
 	position: absolute;
 	right: 0;
-	width: 60%;
+	/*width: 50%;*/
 }
 
 .gdbar {
 	position: absolute;
-	width: 40%;
+	/*width: 40%;*/
 }
 
 .userbar,
 .gdbar{
 	height: 20px;
-	margin: 5px 0;
+	margin: 10px 0;
+
 }
 
 .item a {
-	text-decoration: none;
 	display: inline-block;
 	height: 20px;
 	line-height: 20px;
@@ -53,10 +63,92 @@ em{
 	height: 20px;
 	float: left;
 	padding: 0 22px;
-	border-right: 2px solid #f0f0f0;
+	border-right: 2px solid #D4D4D4;
+}
+
+.center_bar{
+	position: relative;
+	width: 1200px;
+	left: 50%;
+	margin-left: -600px;
+}
+
+.logo_bar{
+	/*background-color: pink;*/
+	height: 88px;
+	position: relative;
+	font-size: 14px;
+}
+
+#logo_i{
+	display: inline-block;
+	height: 48px;
+	margin: 20px;
+	position: absolute;
+	left: 0;
+
+}
+
+#logo{
+	width: 165px;
+	height: 48px;
+}
+
+.location_div{
+	height: 88px;
+	position: absolute;
+	left: 205px;
+}
+
+#location{
+	line-height: 88px;
+	height: 88px;
+	padding: 0 10px;
+	display: inline-block;
 }
 
 
+#location:hover{
+	color: #f40;
 
+}
 
+.line{
+	border-left: 2px solid #D4D4D4;
 
+}
+
+.search_bar{
+	height: 88px;
+	/*background-color: pink;*/
+	display: inline-block;
+	position: absolute;
+	left: 400px;
+
+}
+table {
+	margin: 23px 0;
+	height: 40px;
+}
+
+.search_bar table td,
+.search_txt{
+	height: 40px;
+	overflow: hidden;
+}
+
+#search_a{
+	color:#fff;
+	padding: 0 20px;
+	display: inline-block;
+	line-height: 40px;
+	background-color: #f40;
+	border: 1px solid #f40;
+	
+}
+
+.search_txt{
+
+	width: 400px;
+	border: 3px solid #f40;
+}
