@@ -170,9 +170,10 @@ table {
 }
 
 .second_title{
-	position: absolute;
+	position: relative;
 	height: 32px;
 	width: 100%;
+	background-color: pink;
 }
 
 
@@ -192,6 +193,49 @@ table {
 	padding: 0 100px 0 10px;
 	color: #fff;
 }
+
+.all_ad{
+	height: 500px;
+	background-color: #AEEEEE;
+	width: 100%;
+	position: absolute;
+	top: 160px;
+	z-index: 1;
+}
+
+.ad_right{
+	position: absolute;
+	right: 0;
+	background-color: #CD5555;
+	width: 165px;	
+}
+
+.ad_left{
+	position: absolute;
+	left: 0;
+	background-color: #CD5555;
+	width: 165px;
+}
+
+.ad_center{
+	position: absolute;
+	left: 170px;
+	background-color: #CAE1FF;
+	right: 170px;
+}
+
+.ad_left,
+.ad_center,
+.ad_right{
+	height: 480px;
+	margin: 10px 0;
+}
+
+
+
+
+
+
 
 
 
