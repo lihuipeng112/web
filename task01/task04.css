@@ -173,7 +173,6 @@ table {
 	position: relative;
 	height: 32px;
 	width: 100%;
-	background-color: pink;
 }
 
 
@@ -195,7 +194,7 @@ table {
 }
 
 .all_ad{
-	height: 500px;
+	height: 600px;
 	background-color: #AEEEEE;
 	width: 100%;
 	position: absolute;
@@ -207,38 +206,69 @@ table {
 	position: absolute;
 	right: 0;
 	background-color: #CD5555;
-	width: 165px;	
+	width: 200px;	
 }
 
-.ad_left{
-	position: absolute;
-	left: 0;
-	background-color: #CD5555;
-	width: 165px;
-}
 
-.ad_center{
-	position: absolute;
-	left: 170px;
-	background-color: #CAE1FF;
-	right: 170px;
-}
 
 .ad_left,
 .ad_center,
 .ad_right{
-	height: 480px;
+	height: 570px;
 	margin: 10px 0;
 }
 
 
+.ad_left{
+	position: absolute;
+	left: 0;
+	margin-top: 0px;
+	/*background-color: #CD5555;*/
+	width: 200px;
+	
+}
+
+.ad_center{
+	position: absolute;
+	left: 200px;
+	background-color: #CAE1FF;
+	right: 200px;
+}
+
+.ad_left_table .ad_ul{
+	/*background-color: #8B668B;*/
+}
+
+.ad_left_table .ad_ul .ad_item{
+	margin-left: 22px;
+	background-color: #383131;
+	width: 175.25px;
+	padding-top: 5px;
+}
+
+.ad_div:hover{
+	background-color: #515151;
+}
+
+
+.first_ti{
+	font-weight: bolder;
+	color: #fff;
+	font-size: 0.8em;
+}
 
 
 
+span{
+	margin-left: 2px;
+	line-height: 30px;
+	color: #EEEEE0;
+	font-size: 0.6em;
+	
+}
 
-
-
-
-
+span:hover{
+	color: red;
+}
 
 
