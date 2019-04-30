@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function Over(id){
+		id.innerHTML ="移走";
+	}
+	function Out(id){
+		id.innerHTML ="移来";
+	}
+	function message(){
+		alert("加载完我就出现了");
+	}
+	function changeBg(x){
+		x.style.background="red";
+	}
+	function changeUp(x){
+		x.value = x.value.toUpperCase();
+	}
+</script>
+
+</head>
+
+<body>
+
+<a href="#" onmouseover="Over(this)" onmouseout="Out(this)">移上来</a>
+
+输入:<input type="text" id="test" onchange="changeUp(this)">
+
+</body>
+
+</html>
