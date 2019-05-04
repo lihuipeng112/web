@@ -4,10 +4,13 @@
 	color: #333;
 	text-decoration: none;
 	font-family: serif;
+	list-style: none;
 }
 
-ul {
-	list-style: none;
+
+
+body,html {
+	width: 100%;
 }
 
 em{
@@ -195,7 +198,7 @@ table {
 
 .all_ad{
 	height: 560px;
-	background-color: #AEEEEE;
+	/*background-color: #AEEEEE;*/
 	width: 100%;
 	position: absolute;
 	top: 160px;
@@ -205,7 +208,7 @@ table {
 .ad_right{
 	position: absolute;
 	right: 0;
-	/*background-color: #CD5555;*/
+	background-color: #fff;
 	width: 200px;	
 }
 
@@ -214,7 +217,7 @@ table {
 .ad_left,
 .ad_center,
 .ad_right{
-	height: 540px;
+	height: 520px;
 	margin: 10px 0;
 }
 
@@ -231,8 +234,9 @@ table {
 .ad_center{
 	position: absolute;
 	left: 200px;
-	background-color: #CAE1FF;
-	right: 200px;
+	/*background-color: #CAE1FF;*/
+	right: 210px;
+
 }
 
 .ad_left_table .ad_ul{
@@ -307,7 +311,9 @@ span:hover{
 .hello,
 .regist,
 .bottom_line,
-.three_a{
+.three_a,
+.line_div,
+.erweima_div{
 	font-size: 0.75em;
 	width: 160px;
 	margin-left: 20px;
@@ -344,12 +350,95 @@ span:hover{
 	font-size: 1em;
 }
 
+.three_a{
+	font-size: 1em;
+}
 
 
+.line_div{
+	font-size: 0.75em;
+	color: #B7B7B7;
+}
+
+.line_div .line{
+	padding: 2px;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border-left: 0;
+}
 
 
+.three_a a:hover,
+.line:hover{
+	color: #EE7600;
+}
 
 
+#erweima{
+	width: 50px;
+	float: left;
+	margin-right: 6px;
+}
+
+.erweima_div .line{
+	padding: 5px;
+	border-left: 0;
+	display: block;
+}
+.caidan_div,
+.caidan_ul{
+	margin-left: 10px;
+}
 
 
+.ul1,.ul2,.ul3{
+	width: 32%;
+	border-left: 1px dashed #D4D4D4;
+}
+.ul1{
+	border-left: 0;
+	position: absolute;
+}
 
+.ul2{
+	position: absolute;
+	margin-left: 32%;
+}
+
+.ul3{
+	position: absolute;
+	margin-left: 65%;
+
+}
+.caidan_ul .up_a{
+	display: inline-block;
+	text-align: center;
+	line-height: 100%;
+	position: relative;
+	left: 50%;
+	margin-left: -16%;
+	margin-top: 10px;
+}
+
+
+.caidan_ul{
+	margin:10px 10px 20px;
+	background-color: #fff;
+	font-size: 0.8em;
+	height: 200px;
+}
+
+.last_ul li{
+	/*background-color: pink;*/
+	line-height:26px;
+	margin-top: 10px; 
+}
+
+.last_ul a{
+	padding: 5px;
+	/*background-color: #C1FFC1;*/
+	margin-left: 12px;
+}
