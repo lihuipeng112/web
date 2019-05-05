@@ -80,6 +80,7 @@
 	width: 100%;
 	height: 121px;
 	background-color: #fff;
+	position: relative;
 }
 
 .wrapper .search_wrapper .search_wrapper_box{
@@ -114,10 +115,16 @@
 	top: 24px;
 	position: absolute;
 	height: 88px;
+	width:553px;
+}
+
+.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_div{
+	width:553px;
+	height: 58px;
 
 }
 
-.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_ul{
+.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_div .input_ul{
 	height: 22px;
 	margin-left: 24px;
 	/*background-color: #ff2;*/
@@ -144,7 +151,7 @@
 	background-color: #ffeee5;
 }
 
-.wrapper .search_wrapper .search_wrapper_box .input_wrapper .select{
+.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_div .select{
 	color: #fff;
 	border-top-right-radius: 6px;
 	border-top-left-radius: 6px;
@@ -185,7 +192,8 @@
 	display: inline-block;
 	height: 32px;
 	padding-left: 20px;
-
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
 }
 
 .wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_search .btn_box{
@@ -211,23 +219,83 @@
 	height: 15px;
 	background-size: 100% 100%;
 	position: absolute;
-	top:11px;
+	top:10px;
 	left: 7px;
 
 }
 
 .wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_search .camera{
 	background-image: url('img/camera.png');
-	right: 77px;
-	top: 13px;
+	right: 8px;
+	top: 8px;
 	position: absolute;
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	width: 16px;
+	height: 16px;
 	background-size: 100% 100%;
 }
 
+.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_title{
+	height: 22px;
+	width: 627px;
+	/*border:1px solid black;*/
+}
 
+.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_title .title_ul li{
+	float:left;
+	margin-top: 2px;
+	font-size: 12px;
+	color:#3C3C3C;
+	margin-right: 4px;
+}
+
+.wrapper .search_wrapper .search_wrapper_box .input_wrapper .input_title .title_ul .select{
+	color: #f40;
+}
+
+.wrapper .search_wrapper .search_wrapper_box .erweima_box{
+	width: 76px;
+	height: 90px;
+	position: absolute;
+	right:110px;
+	top: 20px;
+	border:1px solid #DDD;
+}
+
+.wrapper .search_wrapper .search_wrapper_box .erweima_box .close{
+	position: absolute;
+	left:-14px;
+	top: 0;
+	display: inline-block;
+	border:1px solid #DDD;
+	font-size: 8px;
+	color: #C9C9C9;
+	height: 14px;
+	width: 14px;
+	line-height: 14px;
+	text-align: center;
+	/*padding: 0 2px;*/
+}
+
+.wrapper .search_wrapper .search_wrapper_box .erweima_box .phone_tao{
+	display: inline-block;
+	font-size: 12px;
+	color: 12px;
+	text-align: center;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	color: #f40;
+}
+
+.wrapper .search_wrapper .search_wrapper_box .erweima_box .erweima{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-size: 100% 100%;
+	background-image: url('img/erweima.jpg');
+	margin-left: 9px;
+}
 
 
 
