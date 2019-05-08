@@ -264,7 +264,7 @@
 
 .wrapper .search_wrapper .search_wrapper_box .erweima_box .close{
 	position: absolute;
-	left:-14px;
+	left:-17px;
 	top: 0;
 	display: inline-block;
 	border:1px solid #DDD;
@@ -297,9 +297,169 @@
 	margin-left: 9px;
 }
 
+/*中间的title行*/
+.wrapper .mid_web_wrapper{
+	width: 100%;
+	height: 30px;
+	/*background-image: */
+
+}
+
+.wrapper .mid_web_wrapper .web_box{
+	width: 1190px;
+	height: 30px;
+	margin: 0 auto;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+}
+
+.wrapper .mid_web_wrapper .web_box .title{
+	display: inline-block;
+	width: 190px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #f40;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	float: left
+}
+
+.wrapper .mid_web_wrapper .web_box ul{
+	float: left;
+}
+
+.wrapper .mid_web_wrapper .web_box ul li{
+	float: left;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 3px;
+	padding: 0 4px;
+}
+
+.wrapper .mid_web_wrapper .web_box ul li a{
+	color: white;
+	padding: 0 5px;
+}
+.wrapper .mid_web_wrapper .web_box ul li a:hover{
+	color: #f40;
+}
+
+/*主要内容展示区*/
+.wrapper .main_wrapper{
+	width: 100%;
+	height: 632px;
+}
+
+.wrapper .main_wrapper .main_box{
+	width: 1190px;
+	height: 632px;
+	margin:0 auto;
+	position: relative;
+}
+
+.wrapper .main_wrapper .main_box .left_box{
+	height: 632px;
+	margin-right: 290px;
+	border: 1px solid black;
+}
+
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box{
+	width: 100%;
+	height: 522px;
+	/*background-color: pink;*/
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box{
+	width: 190px;
+	height: 522px;
+	/*border: 1px solid yellow;*/
+	float: left;
+	background-color: #fff;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop{
+	/*height: 100%;*/
+	width: 190px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	border:1px solid #ff5000;
+	border-top: none;
+	
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop li{
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 400;
+	color:#666;
+	padding-left: 20px;
+	padding-right: 19px;
+	position: relative;
+	/*width: 145px;*/
+	/*background-color: pink;*/
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop li a{
+	color: #666;
+	padding-right: 5px;
+	/*background: red;*/
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop li:hover,
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop li:hover a{
+	background-color: #ffe4dc;
+	color: #ff5000;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop li:hover a:hover{
+	color: #ff5000;
+	text-decoration: underline;
+}
+.wrapper .main_wrapper .main_box .left_box .left_top_box .all_ul_box .list_shop .rjt{
+	display: inline-block;
+	width: 7px;
+	height: 11px;
+	background-size: 100% 100%;
+	background-image: url('img/arrow_right.png');
+	position: absolute;
+	right: 13px;
+	top: 10px;
+}
 
 
 
+
+
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box{
+	height: 522px;
+	width: 520px;
+	border: 1px solid red;
+	float: left;
+	padding: 0 5px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .second_imge_box{
+	height: 522px;
+	width: 170px;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+}
+
+.wrapper .main_wrapper .main_box .right_box{
+	width: 290px;
+	height: 632px;
+	position: absolute;
+	right: 0;
+	border: 1px solid black;
+}
 
 
 
