@@ -432,25 +432,125 @@
 	top: 10px;
 }
 
-
-
-
-
-
 .wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box{
-	height: 522px;
+	margin-top: 5px;
+	/*height: 512px;*/
+	/*padding-top: 10px;*/
 	width: 520px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	float: left;
-	padding: 0 5px;
+	padding: 0 10px;
+	/*background-color: #fff;*/
+}
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .pic1{
+	position: relative;
+}
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box ul{
+	position: absolute;
+	bottom: 20px;
+	right: 185px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box ul li{
+	width: 10px;
+	height:10px;
+	float: left;
+	margin-right: 10px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box ul li a{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box ul li .select{
+	background-color: #f40;
+}
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .mid_phone{
+	height: 24px;
+	line-height: 24px;
+	width: 100%;
+	/*border:1px solid blue;*/
+	position: relative;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .mid_phone .tianmao{
+	display: inline-block;
+	width: 50px;
+	height: 24px;
+	background-size: 100% 100%;
+	background-image: url('img/tiaomao.jpg');
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .mid_phone .tianmao_red{
+	display: inline-block;
+	/*width: 50px;*/
+	height: 24px;
+	line-height: 24px;
+	vertical-align:bottom;
+	color: red;
+	font-size: 14px;
+	font-weight: 600;
+	padding-bottom: 3px;
+}
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .mid_phone .tianmao_phone{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	vertical-align:bottom;
+	color: #666;
+	font-size: 12px;
+	margin-left: 10px;
+	padding-bottom: 3px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .mid_phone .tianmao_num{
+	position: absolute;
+	right: 10px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .mid_phone em{
+	color: red;
+	font-style:normal;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .pic2{
+	border-top: 3px solid #f40;
+	padding: 5px 0 1px;
+	background-color: #fff;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .two_image_box .pic2 img{
+	width: 257px;
+	height: 194px;
 }
 
 .wrapper .main_wrapper .main_box .left_box .left_top_box .second_imge_box{
 	height: 522px;
-	width: 170px;
-	border: 1px solid red;
+	width: 164px;
+	/*border: 1px solid red;*/
 	float: left;
 	text-align: center;
+	position: relative;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .second_imge_box .today{
+	/*display: inline-block;*/
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	left: 0;
+	bottom: 200px; 
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_top_box .second_imge_box .tt{
+	position: absolute;
+	bottom: 0;
+	left: 2px;
 }
 
 .wrapper .main_wrapper .main_box .right_box{
