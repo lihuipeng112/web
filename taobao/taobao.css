@@ -364,7 +364,7 @@
 .wrapper .main_wrapper .main_box .left_box{
 	height: 632px;
 	margin-right: 290px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 
@@ -553,6 +553,77 @@
 	left: 2px;
 }
 
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box{
+	height: 100px;
+	width: 100%;
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .bottom_box{
+	padding: 15px 10px;
+	height: 70px;
+	/*border: 1px solid red;*/
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .toutiao{
+	/*border:1px solid blue;	*/
+	width: 180px;
+	height: 70px;
+	float: left;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .toutiao .tou_img{
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	background-size: 100% 100%;
+	background-image: url('img/toutiao.jpg');
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .toutiao .tou_title{
+	font-size: 12px;
+	color: #666;
+	display: inline-block;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .message{
+	height: 70px;
+	width: 694px;
+	float: left;
+	position: relative;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .message img{
+	float: left;
+	margin-right: 10px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .message p{
+	margin-top: 5px;
+	color: #666;
+	font-size: 14px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .message .me_a{
+	font-size: 16px;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .message .me_a:hover{
+	color: #f40;
+}
+
+.wrapper .main_wrapper .main_box .left_box .left_bottom_box .message .me_more{
+	color: #666;
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+	bottom: 
+}
+
+
+
 .wrapper .main_wrapper .main_box .right_box{
 	width: 290px;
 	height: 632px;
@@ -561,9 +632,42 @@
 	border: 1px solid black;
 }
 
+.wrapper .main_wrapper .main_box .right_box .user{
+	width: 290px;
+	height: 145px;
+	background-color: pink;
+	text-align: center;
+}
 
+.wrapper .main_wrapper .main_box .right_box .user .user_icon{
+	display: block;
+	margin-left: 120px;
+	width: 50px;
+	height: 50px;
+	background-size: 100% 100%;
+	background-image: url('img/user.jpg');
+	border-radius: 50%;
+}
 
+.wrapper .main_wrapper .main_box .right_box .user .hello{
+	color: #666;
+	font-size: 14px;
+}
 
+.wrapper .main_wrapper .main_box .right_box .user .two_icon{
+	width: 290px;
+	height: 20px;
+}
 
+.wrapper .main_wrapper .main_box .right_box .user .two_icon .two_title{
+	color: #f40;
+	font-size: 12px;
+}
 
+.wrapper .main_wrapper .main_box .right_box .user .two_icon .jinbi{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	
+}
 
