@@ -635,7 +635,7 @@
 .wrapper .main_wrapper .main_box .right_box .user{
 	width: 290px;
 	height: 145px;
-	background-color: pink;
+	/*background-color: pink;*/
 	text-align: center;
 }
 
@@ -657,17 +657,67 @@
 .wrapper .main_wrapper .main_box .right_box .user .two_icon{
 	width: 290px;
 	height: 20px;
+	position: relative;
 }
 
 .wrapper .main_wrapper .main_box .right_box .user .two_icon .two_title{
 	color: #f40;
 	font-size: 12px;
+	background-color: #ffe4db;
+	padding: 0 10px 0 20px;
+	border-radius: 9px;
 }
 
 .wrapper .main_wrapper .main_box .right_box .user .two_icon .jinbi{
 	display: inline-block;
-	width: 18px;
-	height: 18px;
-	
+	width: 12px;
+	height: 12px;
+	background-size: 100% 100%;
+	background-image: url('img/jinbi.jpg');
+	position: absolute;
+	top: 7px;
+	right: 226px;
+	border-radius: 50%;
 }
+
+.wrapper .main_wrapper .main_box .right_box .user .two_icon .huiyuan{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-size: 100% 100%;
+	background-image: url('img/jinbi.jpg');
+	position: absolute;
+	top: 7px;
+	left: 159px;
+	border-radius: 50%;
+}
+
+.wrapper .main_wrapper .main_box .right_box .user .three_btn{
+	width: 290px;
+	height: 25px;
+	margin-left: 15px;
+	padding: 10px 0 5px 0;
+}
+
+.wrapper .main_wrapper .main_box .right_box .user .three_btn ul li{
+	float:left;
+	height: 25px;
+	margin-right: 7px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .user .three_btn ul li a{
+	display: inline-block;
+	width: 75px;
+	height: 25px;
+	line-height: 25px;	
+	background-color: #f40;
+	color: #fff;
+	border-radius: 5px;
+}
+.wrapper .main_wrapper .main_box .right_box .user .three_btn ul li .user_login{
+	width: 92px;
+}
+
+
+
 
