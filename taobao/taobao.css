@@ -629,7 +629,8 @@
 	height: 632px;
 	position: absolute;
 	right: 0;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	background-color: #fff;
 }
 
 .wrapper .main_wrapper .main_box .right_box .user{
@@ -718,6 +719,274 @@
 	width: 92px;
 }
 
+.wrapper .main_wrapper .main_box .right_box .tip{
+	width: 290px;
+	height: 26px;
+
+	text-align: center;
+	position: relative;
+	background-color: #ffe4dd;
+}
+
+.wrapper .main_wrapper .main_box .right_box .tip a{
+	display: inline-block;
+	color: #f40;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;	
+}
+
+.wrapper .main_wrapper .main_box .right_box .tip .tip_you{
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 7px solid #f40;
+	position: absolute;
+	right: 52px;
+	top: 9px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a{
+	width: 100%;
+	height: 98px;
+	margin-top: 10px;
+	/*background-color: pink;*/
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a{
+	width: 100%;
+	height: 24px;
+
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a .a_title{
+	width: 274;
+	height: 24px;
+	margin-top: 4px;
+	padding: 0 8px;
+
+}	
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a .a_title li{
+	float:left;
+	width: 32px;
+	text-align: center;
+	margin: 0 11px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a .a_title li:hover{
+	border-bottom: 2px solid #f40;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a .a_title li a{
+	font-size: 12px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a .a_title li a:hover{
+	color: #f40;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .five_a .a_title .selected{
+	border-bottom: 2px solid #f40;
+	font-weight: 700;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a  .four_a{
+	width: 266px;
+	height: 65px;
+	margin: 0 12px;
+	padding: 9px 0 6px 0;
+	/*background-color: black;*/
+}
 
 
 
+.wrapper .main_wrapper .main_box .right_box .show_a .four_a .a_ex{
+	width: 266px;
+	height: 65px;
+	margin-top: 10px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .four_a .a_ex li{
+	float: left;
+	height: 25px;
+	width: 130px;
+	font-size: 12px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .show_a .four_a .a_ex .selected a{
+	color:#f40;
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu{
+	width: 290px;
+	height: 231px;
+	border-top:1px solid #f4f4f4;
+	border-left: 1px solid #f4f4f4;
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul{
+	/*margin-top: 10px;*/
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li{
+	width: 71px;
+	height: 66px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	margin-top: 11px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .bgimg{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-size: 100% 100%;
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic1{
+	background-image: url('img/fuwu1.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic2{
+	background-image: url('img/fuwu2.png');
+}
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic3{
+	background-image: url('img/fuwu3.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic4{
+	background-image: url('img/fuwu4.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic5{
+	background-image: url('img/fuwu5.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic6{
+	background-image: url('img/fuwu6.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic7{
+	background-image: url('img/fuwu7.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic8{
+	background-image: url('img/fuwu8.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic9{
+	background-image: url('img/fuwu9.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic10{
+	background-image: url('img/fuwu10.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic11{
+	background-image: url('img/fuwu11.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li .pic12{
+	background-image: url('img/fuwu12.png');
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu ul li p{
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu li:hover{
+	cursor: pointer;
+}
+
+.wrapper .main_wrapper .main_box .right_box .fuwu li:hover p{
+	color: #f40;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app{
+	width: 290px;
+	height: 110px;
+	margin-top: 5px;
+	position: relative;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app h3{
+	height: 30px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app .ali{
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app .more_app{
+	position: absolute;
+	top :4px;
+	right: 20px;
+	font-size: 12px;
+	color:#6f6f6f;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul{
+	margin-left: 23px;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 21px;
+	margin-bottom: 8px;
+}
+
+
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .bgimg{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app1{
+	background-image: url('img/icon1.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app2{
+	background-image: url('img/icon2.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app3{
+	background-image: url('img/icon3.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app4{
+	background-image: url('img/icon4.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app5{
+	background-image: url('img/icon5.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app6{
+	background-image: url('img/icon6.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app7{
+	background-image: url('img/icon7.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app8{
+	background-image: url('img/icon8.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app9{
+	background-image: url('img/icon9.jpg');
+}
+
+.wrapper .main_wrapper .main_box .right_box .app ul li .app10{
+	background-image: url('img/icon10.jpg');
+}
