@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>学习</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var a;
+		for(var i = 2;i<100;i++){
+			a = 1;
+			for (var j = 2; j < i; j++) {
+				if(parseInt(i%j) == 0){ //合数，存在可以整除的数
+					a = 2;
+					break;
+				}
+			}
+			if(a == 1){
+				document.write(i);
+				document.write("<br>");
+			}
+		}	
+		
+	</script>
+		
+
+
+
+</body>
+</html>
