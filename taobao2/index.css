@@ -1,0 +1,266 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+html,body{
+	background-color: #f4f4f4;
+}
+
+.wrapper {
+	width: 100%;
+	height: 1000px;
+
+}
+
+.wrapper .nav-wrapper {
+	width: 100%;
+	height: 35px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eee;
+}
+
+.wrapper .nav-wrapper .nav-box {
+	width: 1190px;
+	height: 35px;
+	margin: 0 auto;
+
+}
+
+
+.nav-box .nav-left {
+	float:left;
+}
+
+.nav-box .nav-right {
+	float: right;
+}
+
+
+.nav-box li{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 7px;
+	padding: 0 2px;
+}
+
+.nav-box li a{
+	color: #6C6C6C;
+}
+
+.nav-box li a:hover{
+	color: #f22e00;
+}
+
+.nav-box .nav-left .login{
+	color: #f22e00;
+}
+
+.nav-wrapper .nav-box .bg-a{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-size: 100% 100%;
+}
+
+.nav-wrapper .nav-box .nav-xjb{
+	background-image: url("img/arrow_down.png");
+}
+
+.nav-wrapper .nav-box .shop{
+	background-image: url("img/shop.png");
+}
+
+.nav-wrapper .nav-box .star{
+	background-image: url("img/star.png");
+}
+
+/*logo部分*/
+.wrapper .logo-wrapper {
+	width: 100%;
+	height: 121px;
+	background-color: #fff;
+}
+
+.wrapper .logo-wrapper .logo-box {
+	width: 1190px;
+	padding-top: 24px;
+	height: 88px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+	position: relative;
+}
+
+
+.logo-wrapper .logo-box .left-logo{
+	width: 190px;
+	height: 80px;
+	margin-top: 8px;
+	float:left;
+}
+
+.logo-box .left-logo .logo{
+	display: inline-block;
+	padding-top: 58px;
+	width: 142px; 
+	margin-left: 22px;
+	background-size: 100% 100%;
+	background-image: url("img/logo.png");
+}
+
+.logo-wrapper .logo-box .center-search {
+	height: 87px; 
+	margin-left: 240px;
+	margin-right: 328px;
+	/*border:1px solid black;*/
+}
+
+.logo-wrapper .logo-box .search-title {
+	margin-left: 17px;
+	height: 22px;
+}
+
+.logo-wrapper  .search-title-ul li{
+	float:left;
+	height: 22px;
+	line-height: 22px;
+	width: 36px;
+	color:#F40;
+	font-size: 12px;
+	margin-right: 4px;
+	text-align: center;
+	
+}
+
+.logo-wrapper .logo-box .search-title-ul li:hover{
+	color: #ff5400;
+	background-color: #ffeee5;
+}
+
+.logo-wrapper .logo-box .select{
+	font-weight: 700;
+	color: #ffeee5;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+/*中间的搜索框*/
+.logo-wrapper .center-search .search-box {
+	height: 40px;
+	position: relative;
+}
+
+/*.logo-wrapper .center-search .search-box .button-box {
+	float: left;
+	width: 74px;
+	height: 40px;
+	
+}*/
+
+
+
+.logo-wrapper .center-search .search-box .button {	
+	width: 74px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+
+}
+
+.logo-wrapper .search-box .input-box{
+	margin-right: 74px;
+	height: 36px;
+	border: 2px solid #f40;
+	border-right: none;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	position: relative;
+}
+
+.logo-wrapper .search-box .input-box input {
+	border: none;
+	outline: none;
+	position: absolute;
+	left: 14px;
+	top: 1px;
+	display: inline-block;
+	height: 34px;
+	width: 95%;
+
+
+}
+
+.logo-wrapper .search-box .camera{
+	position: absolute;
+	right: 90px;
+	top: 10px;
+
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-size: 100% 100%;
+	background-image: url("img/camera.png");
+}
+
+.logo-wrapper .center-search .search-msg {
+	width: 100%;
+	height: 22px;
+	/*border:1px solid black;*/
+}
+
+.logo-wrapper .center-search .search-msg ul li{
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin-right: 4px;
+}
+
+.logo-wrapper .center-search .search-msg ul li a{
+	color: #6c6c6c;
+}
+
+.logo-wrapper .center-search .search-msg ul li a:hover,
+.logo-wrapper .center-search .search-msg .selected{
+	color: #f40;
+}
+
+.logo-wrapper .right-erweima{
+	position: absolute;
+	right: 120px;
+	top: 10px;
+
+	width: 90px;
+	height: 90px;
+	/*border:1px solid black;*/
+}
+
+.logo-wrapper .right-erweima .erweima {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background-size: 100% 100%;
+	background-image: url("img/erweima.jpg");
+}
+
+
+
+
+
+
+
+
