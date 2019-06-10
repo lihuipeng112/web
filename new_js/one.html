@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>new页面</title>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		function animal(name) {
+			if(name=="cat"){
+				return "miao";
+			}else if(name=="dog"){
+				return "wan";
+			}else{
+				return "i don't know";
+			}
+		}
+
+		function add() {
+			var sum = 0;
+			for(var i = 0;i<arguments.length;i++){
+				sum += arguments[i];
+			}
+			return sum;
+		}
+		
+		function numToChinese(n) {
+			var nums = ["零","一","二","三","四","五","六","七","八","九","十"]
+			var shs = ["","十","百","千","万"];
+			var sum = 0;
+			var num_string = "";
+			var n_len = n.toString().length;
+			for(var i = 0;i<n_len;i++){
+				var a = parseInt(n/(10**(n_len-i-1)));
+				var b = n%(10**(n_len-i-1));
+				n = b;
+				sum += a*(10**i)
+				
+				if(a == 0){
+					num_string = nums[a] + num_string;
+				}else{
+					num_string = nums[a] + shs[i] + num_string ;
+				}
+			}
+			document.write(sum,num_string);
+		}
+		//numToChinese(parseInt(window.prompt('11')));
+
+	</script>
+
+
+</body>
+</html>
