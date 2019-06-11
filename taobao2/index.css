@@ -317,3 +317,267 @@ html,body{
 .title-wrapper .title-all .title-third {
 	font-size: 14px;
 }
+
+.wrapper .main-wrapper {
+	width: 100%;
+	height: 630px;
+}
+
+.wrapper .main-wrapper .main-box {
+	width: 1190px;
+	height: 100%;
+	margin:0 auto;
+	/*border: 1px solid black;*/
+}
+
+.main-box .main-left {
+	float: left;
+	width: 900px;
+	height: 100%;
+}
+
+.main-box .main-left .main-left-top {
+	width: 100%;
+	height: 520px;
+
+}
+
+.main-left .main-msg-list {
+	float: left;
+	width: 190px;
+	height: 520px;
+	background-color: #fff;
+	/*background-color: pink;*/
+
+	
+}
+
+.main-left .main-msg-list .msg-ul {
+	width: 188px;
+	/*margin-top: 2px;*/
+	height: 518px;
+	padding-top: 2px;
+	border:1px solid #f40;
+	border-top: none;
+}
+
+.main-left .main-msg-list .msg-ul li{
+	float: left;
+	font-size: 12px;
+	color: #666;
+	font-weight: 400;
+	width: 144px;
+	height: 32px;
+	line-height: 32px;
+
+	padding-right: 19px;
+	padding-left: 25px;
+	position: relative;
+}
+
+.main-left .main-msg-list .msg-ul li:hover {
+	color:#ff5000;
+	background-color: #ffe4dc;
+}
+
+.main-left .main-msg-list .msg-ul li:hover a{
+	color:#ff5000;
+}
+.main-left .main-msg-list .msg-ul li:hover a:hover {
+	text-decoration: underline;
+}
+
+.main-left .main-msg-list .msg-ul .bg-yjt {
+	display: inline-block;
+	width: 3px;
+	height: 9px;
+	background-size: 100% 100%;
+	background-image: url("img/arrow_right.png");
+	position: absolute;
+	top:11px;
+	right:5px;
+}
+
+
+
+.main-left .show-msg {
+	float:left;
+	height: 100%;
+	width: 700px;
+	/*background-color: pink;*/
+}
+
+.main-left .show-msg .show-left-box {
+	float: left;
+	height: 100%;
+	width: 520px;
+	margin-left: 10px;
+}
+
+.main-left .show-msg .show-left-box img{
+	margin-top: 10px;
+}
+
+.show-msg .show-left-box .other-msg .tianmao-png {
+	margin-top: 10px;
+	height: 18px;
+	border-bottom: 2px solid #f40;
+	font-size: 12px;
+	color: #666;
+	position: relative;
+}
+
+.show-msg .show-left-box .other-msg .tianmao-png .tianmao-intro {
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 22px;
+	color: #666;
+}
+
+.show-msg .show-left-box .other-msg .tianmao-png .tianmao-msg {
+	font-size: 16px;
+	color:red;
+}
+
+.show-msg .show-left-box .other-msg .tianmao-png .tianmao-logo {
+	display: inline-block;
+	width: 40px;
+	height: 18px;
+	line-height: 18px;
+	background-size: 100% 100%;
+	background-image: url("img/tiaomao.jpg");
+}
+
+.show-msg .show-left-box .other-msg .tianmao-png .tianmao-num {
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+.show-msg .show-left-box .other-msg .tianmao-png .tianmao-num em{
+	font-style: normal;
+	color: red;
+}
+
+.show-msg .show-left-box .other-msg .two-png {
+	padding: 0 10px;
+	background-color: #fff;
+	position: relative;
+}
+
+.show-msg .show-left-box .other-msg .two-png .sen-img {
+	position: absolute;
+	right: 10px;
+
+}
+
+.main-left .show-msg .show-right-box {
+	float: left;
+	height: 100%;
+	width: 160px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.main-left .show-msg .show-right-box .today-shop{
+	display: inline-block;
+	margin-top: 10px;
+	color:#666;
+}
+
+.main-box .main-left .main-left-bottom {
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 100px;
+	background-color: #fff;
+	position: relative;
+}
+
+.main-box .main-left .main-left-bottom .left-toutiao {
+	float: left;
+	width: 200px;
+	height: 100%;
+	/*background-color: pink;*/
+	font-size: 14px;
+}
+
+.main-box .main-left .main-left-bottom .left-toutiao .left-logo {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background-size: 100% 100%;
+	background-image: url(img/toutiao.jpg);
+	/*position: absolute;*/
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.main-box .main-left .main-left-bottom .left-toutiao .left-fun {
+	color:#666;
+	display: block;
+	width: 140px;
+	margin-left: 30px;
+}
+
+
+.main-box .main-left .main-left-bottom .left-msg-png {
+	float: left;
+	height: 100%;
+	width: 690px;
+	position: relative;
+	/*background-color: red;*/
+}
+
+.main-box .main-left .main-left-bottom .left-msg-png .msg-logo{
+	display: inline-block;
+	width: 140px;
+	height: 60px;
+	background-size: 100% 100%;
+	background-image: url("img/damowan.jpg");
+	position: absolute;
+	top: 20px;
+
+}
+
+.main-box .main-left .main-left-bottom .left-msg-png .msg-all-title {
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+.main-box .main-left .main-left-bottom .left-msg-png .msg-more:hover,
+.main-box .main-left .main-left-bottom .left-msg-png .msg-all-title:hover {
+	color: #f40;
+}
+
+.main-box .main-left .main-left-bottom .left-msg-png .msg-all {
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 150px;
+	font-size: 14px;
+	color: #666;
+}
+
+.main-box .main-left .main-left-bottom .left-msg-png .msg-more {
+	display: inline-block;
+	width: 50px;
+	height: 22px;
+	line-height: 22px;
+	/*background-color: pink;*/
+	position: absolute;
+	top: 20px;
+	right: 0;
+	color: #666;
+	font-size: 12px;
+}
+
+.main-box .main-right{
+	float:left;
+	width: 290px;
+	height: 100%;
+
+}
