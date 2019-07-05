@@ -578,13 +578,18 @@ html,body{
 .main-box .main-right{
 	float:left;
 	width: 290px;
-	height: 100%;
-	background-color: pink;
+	height: 620px;
+	margin-top: 10px;
+	/*background-color: pink;*/
+	background-color: #fff;
 }
 
 .main-right .user-box {
-	height: 100%;
+	/*height: 100%;*/
+	margin-top: 10px;
 	height: 145px;
+	/*margin-top: 10px;*/
+	background-color: #fff;
 }
 
 .main-right .user-box .user-msg {
@@ -620,14 +625,19 @@ html,body{
 	margin-left: -25px;
 	color: #666;
 }
-
+.user-box .two-user-msg {
+	text-align: center;
+	/*background-color: red;*/
+}
 .two-user-msg a {
 	display: inline-block;
-	/*padding-left: 20px;*/
 	padding-right: 10px;
 	background-color: #ffe4db;
 	color: #ff5000;
 	font-size: 12px;
+	border-radius: 5px;
+	height: 20px;
+	line-height: 20px;
 }
 
 .two-user-msg span{
@@ -635,6 +645,288 @@ html,body{
 	width: 12px;
 	height: 12px;
 	margin-right: 5px;
+	margin-top: 4px;
 	background-size: 100% 100%;
 	background-image: url(img/jinbi.jpg);
+	border-radius: 3px;
+}
+
+.user-box .user-login-box {
+	margin-top: 5px;
+}
+.user-box .user-login-box ul li{
+	float:left;
+	margin-right: 5px;
+	padding: 0 5px;
+}
+
+.user-login-box ul li a{
+	display: inline-block;
+	width: 75px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	background-color: #f40;
+	border-radius: 3px;
+	font-weight: 400;
+	text-align: center;
+	font-size: 12px;
+}
+
+.user-login-box .login {
+	width: 90px;
+	margin-left: 5px;
+}
+
+.main-right .bad-msg-box {
+	width: 100%;
+	height: 26px;
+}
+
+.main-right .bad-msg-box a {
+	display: inline-block;
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	background-color: #ffe4dd;
+	color: #f40;
+	font-size: 12px;
+	text-align: center;
+	/*position: relative;*/
+}
+
+.main-right .bad-msg-box .tran{
+	display: inline-block;
+	border-left: 7px solid #f40;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	margin-left: 32px;
+}
+
+.main-right .msg-box {
+	padding-top: 10px;
+	height: 98px;
+	width: 100%;
+	font-size: 12px;
+}
+
+.main-right .msg-box .five-title {
+	margin-top: 4px;
+	margin-right: -2px;
+	padding: 0 8px;
+	height: 24px;
+}
+
+.main-right .msg-box .five-title li{
+	float: left;
+	width: 32px;
+	height: 20px;
+	text-align: center;
+	margin: 0 11px;
+}
+
+.main-right .msg-box .five-title li a{
+	color: #3c3c3c;
+}
+
+.main-right .msg-box .five-title .selected{
+	font-weight: 700;
+	border-bottom: 2px solid #f40;
+}
+
+.msg-box .four-msg {
+	margin: 0 12px;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+
+.msg-box .four-msg li{
+	float: left;
+	width: 130px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.msg-box .four-msg li .selected,
+.msg-box .four-msg li a:hover {
+	color: #f40;
+}
+
+.main-right .function-box {
+	font-size: 12px;
+	height: 230px;
+	background-color: #fff;
+}
+
+
+.main-right .function-box ul{
+	border-top: 1px solid #f4f4f4;
+	border-left: 1px solid #f4f4f4;
+}
+
+.main-right .function-box ul li {
+	float: left;
+	width: 71px;
+	height: 70px;
+	text-align: center;
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.main-right .function-box ul li a {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	line-height: 80px;
+	position: relative;
+}
+.main-right .function-box ul li a:hover{
+	color: #f40;
+}
+
+.main-right .function-box span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-size: 100% 100%;
+	background-image: url(img/fuwu1.png);
+
+	position: absolute;
+	top: 8px;
+	right: 25px;
+}
+
+.main-right .function-box .icon1 {
+	background-image: url(img/fuwu1.png);
+}
+.main-right .function-box .icon2 {
+	background-image: url(img/fuwu2.png);
+}
+
+.main-right .function-box .icon4 {
+	background-image: url(img/fuwu4.png);
+}
+
+.main-right .function-box .icon5 {
+	background-image: url(img/fuwu5.png);
+}
+
+.main-right .function-box .icon6 {
+	background-image: url(img/fuwu6.png);
+}
+
+.main-right .function-box .icon7 {
+	background-image: url(img/fuwu7.png);
+}
+
+.main-right .function-box .icon8 {
+	background-image: url(img/fuwu8.png);
+}
+
+.main-right .function-box .icon9 {
+	background-image: url(img/fuwu9.png);
+}
+
+.main-right .function-box .icon10 {
+	background-image: url(img/fuwu10.png);
+}
+
+.main-right .function-box .icon11 {
+	background-image: url(img/fuwu11.png);
+}
+
+.main-right .function-box .icon12 {
+	background-image: url(img/fuwu12.png);
+}
+
+.main-right .app-box {
+	width: 290px;
+	height: 100px;
+	position: relative;
+}
+
+.main-right .app-box .ali{
+	display: inline-block;
+	/*width: 100%;*/
+	margin-left: 10px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: 700;
+
+}
+
+.main-right .app-box .more{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.main-right .app-box .more:hover {
+	color: #f40;
+}
+
+.main-right .app-box ul{
+	margin-top: 10px;
+	height: 80px;
+}
+
+.main-right .app-box ul li{
+	float: left;
+	width: 55px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.main-right .app-box ul li a{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: 100% 100%;
+}
+
+.main-right .app-box .app1 {
+	background-image: url(img/icon1.jpg);
+}
+
+.main-right .app-box .app2 {
+	background-image: url(img/icon2.jpg);
+}
+
+.main-right .app-box .app3 {
+	background-image: url(img/icon3.jpg);
+}
+
+.main-right .app-box .app4 {
+	background-image: url(img/icon4.jpg);
+}
+
+.main-right .app-box .app5 {
+	background-image: url(img/icon5.jpg);
+}
+
+.main-right .app-box .app6 {
+	background-image: url(img/icon6.jpg);
+}
+
+.main-right .app-box .app7 {
+	background-image: url(img/icon7.jpg);
+}
+
+.main-right .app-box .app8 {
+	background-image: url(img/icon8.jpg);
+}
+
+.main-right .app-box .app9 {
+	background-image: url(img/icon9.jpg);
+}
+
+.main-right .app-box .app10 {
+	background-image: url(img/icon10.jpg);
 }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+
+	.wrapper {
+		margin: 50px;
+		width: 400px;
+		height: 125px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.wrapper .img-wrapper {
+		width: 2000px;
+		height: 125px;
+		position: absolute;
+		left: 0;
+	}
+	
+	div img{
+		float: left;
+		width: 400px;
+		height: 125px;
+	}	
+
+
+	.stop{
+		width: 100px;
+		height: 100px;
+		border: 1px solid black;
+	}
+
+	.wrapper .list {
+		width: 100px;
+		height: 10px;
+
+		position: absolute;
+		left: 50%;
+		margin-left: -50px;
+		bottom: 10px;
+		/*background-color: red;*/
+	}
+
+	.wrapper .list ul{
+		width: 100px;
+		height: 10px;
+		list-style: none;
+	}
+	.wrapper .list ul li{
+		float: left;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		margin-right: 15px;
+
+	}
+	.wrapper .list ul .last{
+		margin-right: 0;
+	}
+	.red {
+		background-color: red;
+	}
+	
+	.white {
+		background-color: #fff;
+	}
+	</style>
+
+</head>
+<body>
+
+	
+<div class="wrapper">
+	<div class="img-wrapper">
+		<img src="img/b1.png">
+		<img src="img/b2.png">
+		<img src="img/b3.png">
+		<img src="img/b4.png">
+		<img src="img/b1.png">
+	</div>
+	<div class="list">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li class="last"></li>
+		</ul>
+	</div>
+</div>
+<div class="stop"></div>	
+<script type="text/javascript">
+	var image = document.getElementsByClassName('img-wrapper')[0];
+	var stopdiv = document.getElementsByTagName('li');
+	var start = function (){
+		var timer = setInterval(function (){
+			
+			image.style.left = parseInt(window.getComputedStyle(image,null).left) - 10 + 'px';
+
+			var nowLeft = parseInt(window.getComputedStyle(image,null).left);
+
+			if( nowLeft == -1600){
+				image.style.left = "0";
+			}
+			for(var i = 0;i < stopdiv.length;i++){
+				stopdiv[i].className = 'white';
+				stopdiv[i].onclick = function (){
+					console.log('=====');
+					image.style.left = -400 * i + 'px';
+				}
+
+			}
+			var result = -nowLeft / 400;
+			if(result < 0.5){
+				stopdiv[0].className = 'red';	
+			}else if(result < 1.5){
+				stopdiv[1].className = 'red';
+			}else if(result < 2.5){
+				stopdiv[2].className = 'red';
+			}else if(result < 3.5){
+				stopdiv[3].className = 'red';
+			}else{
+				stopdiv[0].className = 'red';	
+			}
+
+
+
+			if(nowLeft % 400 == 0){
+				console.log('111');
+				clearInterval(timer);
+				setTimeout(function (){
+					start();
+				},2000);
+			}
+
+
+
+			
+
+		},50)
+	}
+
+
+	start();
+</script>
+
+</body>
+</html>
