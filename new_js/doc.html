@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文档下载</title>
+	<link rel="stylesheet" href="doc.css">
+</head>
+<body>	
+	<div class="top">
+		<div class="choose">
+			<ul class="three-nav">
+				<li><a href="#">手游</a></li>
+				<li><a href="#">h5</a></li>
+				<li><a href="#">海外</a></li>
+				<li><a href="#">正版</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="show">
+		<div style='display: block' class="手游 pu">
+			<table>
+				<tr>
+					<th>序号</th>
+					<th>阶段</th>
+					<th>cp检测项</th>
+					<th>文档名称</th>
+					<th>下载链接</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>首次接入</td>
+					<td>游戏内容自测</td>
+					<td>1.君海第三方游戏接入测试报告v**.xls</td>
+					<td><a href="img/bbb2.doc" download>下载</a></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>首次接入</td>
+					<td>兼容测试准备及自测</td>
+					<td>6.游戏兼容测试cp准备检查项及自测v**.xls</td>		
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>首次接入</td>
+					<td>独代接入自测</td>
+					<td>3.cp首次接入君海独代母包自测文档v**.docx</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>兼容测试</td>
+					<td>兼容测试准备及自测</td>
+					<td>6.游戏兼容测试cp准备检查项及自测v**.xls</td>	
+				</tr>
+
+			</table>
+
+		</div>
+		<div class="h5 pu">h5</div>
+		<div class="hw pu">手游</div>
+		<div class="appstore pu">正版</div>
+	</div>
+
+<script type="text/javascript">
+
+var liCol = document.getElementsByTagName('li');
+var divCol = document.getElementsByClassName('pu');
+for(var i = 0;i< liCol.length;i++){
+	(function(i){
+		liCol[i].addEventListener('click',function(){			
+			for(var j=0;j<liCol.length;j++){
+				var a = liCol[j].getElementsByTagName('a')[0];
+				a.style.color = '#fff';
+				divCol[j].style.display = 'none';
+			}
+			// 改变a标签颜色
+			var a = liCol[i].getElementsByTagName('a')[0];
+			a.style.color = '#49a9f8';
+			divCol[i].style.display = 'block';
+
+		},false);
+	}(i))
+}
+
+	
+</script>
+
+</body>
+</html>

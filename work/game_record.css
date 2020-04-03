@@ -1,0 +1,135 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.main {
+	margin: 30px auto;
+	width: 1200px;
+	height: 800px;
+	/*background-color: pink;*/
+
+
+}
+
+.main .title-box {
+	width: 700px;
+	height: 40px;
+}
+
+.main .title-box .title {
+	width: 100%;
+	height: 40px;
+	
+}
+
+.main .title-box .title li {
+	float: left;
+}
+
+.main .title-box .title li a{
+	color:black;
+	/*text-decoration: none;*/
+}
+
+
+.main .title .current {
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #C9C9C9;
+	border-bottom: 3px solid #87CEFA;
+	font-weight: 700;
+	color: black;
+}
+
+
+
+
+.contant {
+	width: 700px;
+	border: 1px solid #C9C9C9;
+	border-bottom: 3px solid red;
+	border-top: none;
+}
+
+.contant .item {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 3px;
+}
+
+.contant .top-line {
+	border-top: 1px solid #C9C9C9;
+	height: 1px;
+	width: 620px;
+	margin-left: 80px;
+
+}
+.contant .item .explain{
+	display: inline-block;
+	font-size: 12px;
+	color: #B5B5B5;
+
+}
+
+.contant .item .add-box{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.contant .item .add-data{
+	display: inline-block;
+	width: 100px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	/*border-radius: px;*/
+}
+
+.contant .item .title-label{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 120px;
+	/*background-color: pink;*/
+	text-align: center;
+}
+
+.contant .check-box {
+	height: 80px;
+	position: relative;
+}
+
+.contant .check-box .title-label{
+	/*background-color: red;*/
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contant .check-box span{
+	display: inline-block;
+	height: 80px;
+	width: 570px;
+	/*background-color: pink;*/
+	position: absolute;
+	top: 0;
+	left: 130px;
+}
+
+.contant .check-box span label{
+	font-size: 14px;
+	margin-left: 3px;
+}

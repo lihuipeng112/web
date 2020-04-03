@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>游戏测试记录</title>
+	<link rel="stylesheet" type="text/css" href="game_record.css">
+</head>
+<body>
+
+<div class="main">
+	<div class="form_area">
+		<div class="title-box">
+			<ul class="title">
+				<li class="current"><a href="#" class="choose" style="color:#49a9f8">添加纪录</a></li>
+				<li class="current"><a href="#" class="choose">测试纪录</a></li>
+			</ul>
+		</div>
+		<form action="compare_add_task.jsp">
+			<div class="box pu">
+				<div class="form_list">
+					<div class="contant">
+						<div class="item top-line">
+							
+						</div>
+						<div class="item">
+							<label class="title-label">游戏id：</label>
+							<span>
+								<input type="text" name="" class="in">
+							</span>
+							<div class="explain">云打包游戏id，纯数字，例如159，208这种</div>
+						</div>
+						<div class="item">
+							<label class="title-label">游戏名：</label>
+							<span>
+								<input type="text" name="" class="in">
+							</span>
+							<div class="explain">云打包游戏名字，例如纵剑仙界</div>
+						</div>
+						<div class="item">
+							<label class="title-label">阶段：</label>
+							<select>
+								<option value ="0">压测</option>
+								<option value ="1">付费</option>
+								</select>
+							<div class="explain"></div>
+						</div>
+						<div class="item check-box">
+							<label class="title-label">已验收通过项：</label>
+							<span>
+								<label><input type="checkbox" name="pass" value="0">&nbsp;apk参数检测</label>
+								<label><input type="checkbox" name="pass" value="1">&nbsp;角色数据检测</label>
+								<label><input type="checkbox" name="pass" value="2">&nbsp;支付验收</label>
+								<label><input type="checkbox" name="pass" value="3">&nbsp;数据中心接口</label>
+								<label><input type="checkbox" name="pass" value="4">&nbsp;实名验证</label>
+								<label><input type="checkbox" name="pass" value="5">&nbsp;防沉迷</label><br>
+								<label><input type="checkbox" name="pass" value="6">&nbsp;二次验证处理方案</label>
+								<label><input type="checkbox" name="pass" value="7">&nbsp;唯一标识</label>
+							</span>
+						</div>
+						<div class="item check-box">
+							<label class="title-label">未通过项：</label>
+							<span>
+								<label><input type="checkbox" name="unpass" value="0">&nbsp;apk参数检测</label>
+								<label><input type="checkbox" name="unpass" value="1">&nbsp;角色数据检测</label>
+								<label><input type="checkbox" name="unpass" value="2">&nbsp;支付验收</label>
+								<label><input type="checkbox" name="unpass" value="3">&nbsp;数据中心接口</label>
+								<label><input type="checkbox" name="unpass" value="4">&nbsp;实名验证</label>
+								<label><input type="checkbox" name="unpass" value="5">&nbsp;防沉迷</label><br>
+								<label><input type="checkbox" name="unpass" value="6">&nbsp;二次验证处理方案</label>
+								<label><input type="checkbox" name="unpass" value="7">&nbsp;唯一标识</label>
+							</span>
+						</div>
+						<div class="item">
+							<label class="title-label">备注：</label>
+							<span>
+								<input type="text" name="" class="in">
+							</span>
+							<div class="explain"></div>
+						</div>
+						<div class="item">
+							<span class="add-box">
+								<input type="submit" name="add" class="add-data">
+								
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div class="data-box pu" id="data-show">
+			
+		</div>
+	</div>
+
+</div>
+<script type="text/javascript" src="game_record.js"></script>
+
+
+
+</body>
+</html>

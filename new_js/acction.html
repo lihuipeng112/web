@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>测试</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<!-- <div style='width:100px;height:100px;background-color:red;position:relative;left:0;top:0'></div> -->
+		<input type="text" value="请输入"  onfocus="if(this.value == '请输入'){this.value='',this.style.color='#424242'}" onblur="if(this.value==''){this.value='请输入',this.style.color='#999'}">
+
+		<script type="text/javascript">
+			function test(){
+				console.log('111');
+			}
+			function go(aa){
+				for(var i =0;i<10;i++){
+					aa();
+				}
+			}
+
+			go(test);
+
+
+		</script>
+
+	</body>
+</html>
